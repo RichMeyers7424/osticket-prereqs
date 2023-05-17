@@ -22,11 +22,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create a Virtual Machine in Azure 
+- Install / Enable IIS in Windows WITH CGI
+- download and install PHP Manager for IIS
+- download and install the Rewrite Module 
+- Create the directory C:\PHP and download PHP
+- download and install VC_redist.x86.exe.
+- download and install MySQL 
+- download and install HeidiSQL
+
+
 
 <h2>Installation Steps</h2>
 
