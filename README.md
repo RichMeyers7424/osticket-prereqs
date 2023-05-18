@@ -16,16 +16,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+System Requirements:
 
-- Create a Virtual Machine in Azure 
-- Install / Enable IIS in Windows WITH CGI
-- download and install PHP Manager for IIS
-- download and install the Rewrite Module 
-- Create the directory C:\PHP and download PHP
-- download and install VC_redist.x86.exe.
-- download and install MySQL 
-- download and install HeidiSQL
+Web server (e.g., Apache, Nginx)
+PHP version 7.4 or later
+MySQL or MariaDB database server
+Download osTicket:
+
+Visit the official osTicket website at https://osticket.com/ and navigate to the "Download" section.
+Choose the latest stable release and download the ZIP package to your PC.
+Extract Files:
+
+Extract the downloaded ZIP package to a location on your PC. This will create a directory containing osTicket files.
+Configure Web Server:
+
+Set up a virtual host or configure your web server to point to the directory where you extracted osTicket files.
+Create a Database:
+
+Access your MySQL or MariaDB server and create a new database for osTicket.
+Create a user with appropriate privileges and assign it to the newly created database.
+Configure osTicket:
+
+Rename the "include/ost-sampleconfig.php" file to "include/ost-config.php".
+Open "include/ost-config.php" using a text editor and provide the necessary database connection details (database name, username, password).
+Install osTicket:
+
+Open a web browser and access the URL where you configured osTicket (e.g., http://localhost/osticket).
+The installation wizard should start automatically.
+Follow the on-screen instructions, providing information such as the database connection details, administrative email, and system settings.
+Once the installation is complete, the wizard will prompt you to create an administrative account.
+Finalize Installation:
+
+After creating the administrative account, the installation process should be complete.
+Log in to the osTicket administrative interface and configure additional settings as needed.
 
 
 
@@ -53,10 +76,6 @@ Now we will enable ISS with CGI.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
