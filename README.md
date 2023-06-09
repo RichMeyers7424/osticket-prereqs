@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. I will be using Azure to create a Virtual Machine to install osTicket. This step is not nessessary to install or use osTicket, if you are using an administrator cpu, contine to step 3.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -23,10 +23,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 
 <h2>Installation Steps</h2>
- In this tutorial, you will find all the materials needed with an in depth explination of osTicket, how to install, troubleshoot and teach others how to use and install osTicket!
+
+- Step 1: Azure virtual machine deployment
+- Step 2: Remote Access to VM
+- Step 3: Install PHP
+- Step 4: Install Rewrite Module
+- Step 5: Create PHP
+- Step 6: Install C++
+- Step 7: Install Heidi SQL
+- Step 8: Install osTicket
+ 
 </p>
 <br />
 
+<h2>Step 1</h2>
 
 <p>
 <img src="https://i.imgur.com/lCxkFRI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
