@@ -37,6 +37,14 @@ First, we will create a virtual machine in azure to set up and run osTicket.
 <br />
 
 <p>
+<img src="https://i.imgur.com/J4lEPsw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Once we have our Virtual Machine created, we will remote access the vm using Remote desktop conection. To do so we must obtain the ip address of our vm. You can find it in the vm's files.
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/qCJdSqx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
