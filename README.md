@@ -189,25 +189,32 @@ After MySQL is installed, open IIS as an administrator. This will allow is to ch
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2VkSEuS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once in the IIS administrator panel, you will need to register PHP from within IIS. After registration is complete, reload IIS.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zM0rMSu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once IIS is setup (for now), we can install osTicket. After dowload is complete, Extract and copy the "upload" folder to C:\inetpub\wwwroot; within wwwroot, Rename "upload" to "osTicket"
-Then open IIS admin panel and reload IIS. 
+<br />
+ 
+<p>
+<img src="https://i.imgur.com/zM0rMSu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+ 
+<p>
+<img src="https://i.imgur.com/w9lsYTQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
+<p>
+Once IIS is setup (for now), we can install osTicket. After dowload is complete, Extract and copy the "upload" folder to C:\inetpub\wwwroot; within wwwroot, Rename "upload" to "osTicket" Then open IIS admin panel and reload IIS. 
 </p>
 <br />
 
