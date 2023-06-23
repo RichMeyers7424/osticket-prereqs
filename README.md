@@ -44,8 +44,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 First, we will create a virtual machine in azure to set up and run osTicket.
- 
- </p>
+</p>
+<p>
 <br />
 
 <img src="https://i.imgur.com/lCxkFRI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -97,14 +97,11 @@ Now we will enable ISS with CGI. To do so, Access the Control Panel, the Program
 <img src="https://i.imgur.com/qCJdSqx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-<p>
 <br />  
 
- <p>
+<p>
 Now we check to make sure IIS is operational by checking the loopback address of 127.0.0.1. osTicket runs off of a web browser, this will insure that osTicket will work after the instalation. 
-<br />
- </p>
+</p>
 <p>
 <br /> 
  
@@ -114,7 +111,7 @@ Now we check to make sure IIS is operational by checking the loopback address of
 <p>
 <br />
  
- <p>
+<p>
 Now that we know IIS is operational, we will continue with the rest of the downloads.  Atached above are the instalation files need to install osTicket.  First we will download and install PHP Manager for IIS, and download and install the Rewirte Module.
 </p>
 <br />
@@ -192,11 +189,16 @@ After MySQL is installed, open IIS as an administrator. This will allow is to ch
 <img src="https://i.imgur.com/2VkSEuS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once in the IIS administrator panel, you will need to register PHP from within IIS. After registration is complete, reload IIS.
+<br />
+
+</p>
+Once in the IIS administrator panel, you will need to register PHP from within IIS. This file will be found in the file we transfered our PHP download to. Click browse and locate the correct php file. After registration is complete, reload IIS.
+<p/>
+<p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/zM0rMSu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t2dq5Qf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />
@@ -219,42 +221,57 @@ Once IIS is setup (for now), we can install osTicket. After dowload is complete,
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/b9pS8VB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/b9pS8VB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
 <p>
 Go to site-> Defalt -> osTicket. On the right hand side, there should be a extention "Browse *80"  Click on that. If everything has be installed correctly, a new window should come up in edge as osTicket.
 </p>
+<p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K9bzAhi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<br />
+
 <p>
 Once in osTicket, you can see that not all of the extentions are functional.  To enable them, go back to IIS admin panel, sites-> Default-> osTicket.  Double click PHP manager, from here you will enable a few of the extentions that are disabled. Once enabled, refresh the osTicket website and you will see that most have been activated.
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DanhMiS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eLkjQ7j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gyYrktW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4LvsTas.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
@@ -295,7 +312,7 @@ Now you will have to assign permisssions within ostconfig.php by right clicking 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now ww will continue to set up osTicket. Fromhere you can use whatever kind of default email you would like to use to recieve emails from customers.
+Now we will continue to set up osTicket. From here you can use whatever kind of default email you would like to use to recieve emails from customers.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
