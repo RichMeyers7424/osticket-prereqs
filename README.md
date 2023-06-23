@@ -127,58 +127,55 @@ Now that we know IIS is operational, we will continue with the rest of the downl
 <br />
 
 <p>
-<img src="https://i.imgur.com/eiB0bv7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ws89fLG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 After you have completed the first set of downloads, open My Computer, go to the C: drive, and create a new file named C:PHP
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/eZW1Uys.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lSalNHa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now that we have our PHP file created, we will download PHP 7.3.8.  After the download, extract the file into the PHP folder.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gNRCil4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+</p>
+<br />
+
 <p>
 Once the PHP file transfer is complete, download and install VC redistx86.exe and MySQL 5.5.62. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mafMe74.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UpO5CL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bp2SoeO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<br />
+ 
 <p>
 After MySQL is installed, open IIS as an administrator. This will allow is to change the php setup and enable extensions.
 </p>
@@ -319,6 +316,8 @@ Continue setting up osTicket with MySQL
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<br />
+ 
 Congratulations!! hopefully it is all installed with no errors! Browse you help desk login page http://localhost/osTicket/scp/login.php
  End users osTicket url http://localhost/osTicket/ 
 
