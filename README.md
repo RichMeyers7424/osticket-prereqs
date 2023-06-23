@@ -227,7 +227,7 @@ Once IIS is setup (for now), we can install osTicket. After dowload is complete,
 <br />
 
 <p>
-<img src="https://i.imgur.com/b9pS8VB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RTDsBuF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />
@@ -245,7 +245,7 @@ Go to site-> Defalt -> osTicket. On the right hand side, there should be a exten
 <br />
 
 <p>
-Once in osTicket, you can see that not all of the extentions are functional.  To enable them, go back to IIS admin panel, sites-> Default-> osTicket.  Double click PHP manager, from here you will enable a few of the extentions that are disabled. Once enabled, refresh the osTicket website and you will see that most have been activated.
+Once in osTicket, you can see that not all of the extentions are functional.  To enable them, go back to IIS admin panel, sites-> Default-> osTicket.  Double click PHP manager, from here you will enable a few of the extentions that are disabled. We will enable, php_imap, php_intl, and php_opcache.dll. Once enabled, refresh the osTicket website and you will see that most have been activated. 
 </p>
 <p>
 <br />
@@ -271,51 +271,75 @@ Once in osTicket, you can see that not all of the extentions are functional.  To
 <br />
 
 <p>
-<img src="https://i.imgur.com/4LvsTas.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fjOqs2n.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fckaKsb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<br />
+
 <p>
 We are almost there! Open My Computer and go to the C drive. In C, open inetpub, then wwwroot, then osTicket. In osTicet, open Include.  Scroll down, twards the bottom will be a file named ost-samlpleconfig.php. Rename this file ost-config.php, basicly deleting the word samlple.
 </p>
+<p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RTDsBuF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Once in 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZrgAGHC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4wG888U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
 <p>
 Now you will have to assign permisssions within ostconfig.php by right clicking on the file itself, go to permissions; disable inheritance-> Remove all. Now new permissions-> Everyone all.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WR436tX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we will continue to set up osTicket. From here you can use whatever kind of default email you would like to use to recieve emails from customers.
+<br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VjBXr8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/AioVurS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
+<p>
+Now we will continue to set up osTicket. From here you can use whatever kind of default email you would like to use to recieve emails from customers.
+</p>
+<p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Fury6MG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After you have set up osTicket as far as you could, we will need to download and install HeidiSQL for the database inside of osTicket. To do this, Create a new session, with root and Password. Connect with the session, create a database called "osTicket" and connect to osTickt.
@@ -323,17 +347,38 @@ After you have set up osTicket as far as you could, we will need to download and
 <br />
 
 <p>
+<img src="https://i.imgur.com/HM4grwf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
+ <h2>Continue setting up osTicket with MySQL </h2>
+
+- MySQL Database
+- MySQL Username
+- MySQL Password
+
+  Click Install Now!
+ 
+ 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/H4JH34Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Continue setting up osTicket with MySQL 
- -MySQL Database
- MySQL Username
- MySQL Password
- Click Install Now!
- 
- 
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
 <br />
 
 <p>
