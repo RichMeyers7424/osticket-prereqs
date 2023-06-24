@@ -415,3 +415,5 @@ To clean up, you should delete C:inetpu\wwwroot\osTicket\setup, as well as setti
 </p>
 <br />
 
+<h2>Congrats!! If you made it this far your definitly on your way to advanced use of osTicket!!</h2>
+
