@@ -342,7 +342,7 @@ Now we will continue to set up osTicket. From here you can use whatever kind of 
 <img src="https://i.imgur.com/Fury6MG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After you have set up osTicket as far as you could, we will need to download and install HeidiSQL for the database inside of osTicket. To do this, Create a new session, with root and Password. Connect with the session, create a database called "osTicket" and connect to osTickt.
+ After you have set up osTicket as far as you could, we will need to download and install HeidiSQL for the database inside of osTicket. To do this, Create a new session, with root and Password. Connect with the session,  create a database called "osTicket" and connect to osTickt.
 </p>
 <br />
 
@@ -353,13 +353,8 @@ After you have set up osTicket as far as you could, we will need to download and
  
  <h2>Continue setting up osTicket with MySQL </h2>
 
-- MySQL Database
-- MySQL Username
-- MySQL Password
-
-  Click Install Now!
- 
- 
+<p>
+ Now that we have created our database, we'll copy and past it into the database selection withih the osTicket setup. Our MySQL username was root and the password you choose when we installed earlier. Then click install now!
 </p>
 <br />
 
@@ -370,7 +365,7 @@ After you have set up osTicket as far as you could, we will need to download and
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eHKGqdX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />
