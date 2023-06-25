@@ -371,39 +371,31 @@ Now we will continue to set up osTicket. From here you can use whatever kind of 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/agXtqAz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<br />
- 
-Congratulations!! hopefully it is all installed with no errors! Browse you help desk login page http://localhost/osTicket/scp/login.php
- End users osTicket url http://localhost/osTicket/ 
-
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-To clean up, you should delete C:inetpu\wwwroot\osTicket\setup, as well as setting the permissions to Read only on C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<p> 
+ Congratulations!! hopefully it is all installed with no errors! This was a long one so congrats to you if you made it this far.  There are plenty of videos on youtube with detailed walkthroughs on installing osTicket.
+ To clean up, you should delete C:inetpu\wwwroot\osTicket\setup, as well as setting the permissions to Read only on C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/v7BVHMt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/nuRZkcZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JAZdFUT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
